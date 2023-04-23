@@ -1,0 +1,23 @@
+@media(min-width:601px) and (max-width:1024px) {
+
+.main-Services{
+	display: flex;
+	flex-direction: column;
+	
+}
+#Services{
+width: 60vh;
+padding-top: 2rem;
+}
+body{
+    overflow-x: hidden;
+
+}
+.container{
+	margin: 10px auto;
+	width: 0;
+}
+.Services-h1{
+	margin-bottom: none;
+}
+}

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap');
+/*font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: white;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.7rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.navbar ul{
+	display: flex;
+}
+.navbar ul li{
+	list-style: none;
+}
+.navbar ul li a{
+	color: black;
+	text-decoration: none;
+	padding: 1rem;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+.navbar ul li a:hover{
+	border-bottom: 3px solid #00ADF3;
+	/*background: #00ADF3;*/
+}
+.logo{
+font-family: 'Lobster', cursive;
+font-size: 2rem;	
+}
+.color-text{
+	color: #00ADF3;
+}
+.header{
+	
+	height: 100vh;
+
+	/*background-repeat: no-repeat;*/
+	
+
+}
+img{
+	background-position:center;
+	background-size: cover;
+	width: 65%;
+
+}
+.header-div{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.6rem;
+	text-align: left;
+	display: flex;
+	/*flex-direction: row;*/
+	justify-content: center;
+	align-items: center;
+	margin-left: 1.3rem;
+	padding-left: 1.3rem;
+	
+} 
+.btn{
+	cursor: pointer;
+	background: #00ADF3;
+	border: none;
+	border-radius: 10rem;
+	padding: 1rem;
+	width: 8rem;
+	font-size: 1rem;
+	font-weight: bolder;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.main-Services{
+	display: flex;
+	flex: 1;
+}
+.container{
+	margin: 10px auto;
+	width: 74rem;
+}
+.Services-h1{
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+
+}
+.main-p{
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #00ADF3;
+	font-weight: bolder;
+}
+.Services-h3{
+	
+	text-align: center;
+	padding-bottom: 1.6rem;
+}
+.cards-p{
+	font-size: 1rem;
+	margin: 10 auto;
+	padding-bottom: 1.6rem;
+}
+.cards{
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 1.3rem;
+	border: 1.5px solid #c2bdc7;
+	margin-left: 1rem;
+}
+.cards:hover{
+	border: 3px solid #00ADF3;
+}
+
+.cards i{
+	color:#00ADF3;
+	padding: 2rem;
+	border-radius: 4rem;
+}
+.about-div{
+	margin: 2rem;
+
+}
+#About{
+	display: flex;
+	flex-direction: row-reverse;
+   align-items: center;
+   height: 80vh;
+   margin-top: 6rem;
+}
+
+/*.about-div h1{
+	height: 100vh;
+*/
+.img{
+width: 50%;
+border-radius: 2rem;
+
+
+}
+.about-main-p{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #00ADF3;
+	font-weight: bolder;
+}
+.about-h1{
+font-family: 'Noto Sans JP', sans-serif;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+.about-p{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+/**/
+.Work-div{
+	margin: 2rem;
+
+}
+#Work{
+	display: flex;
+	flex-direction: row;
+   align-items: center;
+   height: 80vh;
+   margin-top: 6rem;
+}
+
+/*.about-div h1{
+	height: 100vh;
+*/
+
+.Work-main-p{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #00ADF3;
+	font-weight: bolder;
+}
+.Work-h1{
+font-family: 'Noto Sans JP', sans-serif;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+.Work-p{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+.cards-work{
+	color:#00ADF3;
+	
+}
+.team{
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-left: 1rem;
+}
+/*.team-p{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}*/
+#team{
+	margin-top:6rem;
+}
+
+input{
+	height: 3.5rem;
+	width: 50rem;
+	border: 3px solid #00ADF3;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	margin-bottom: 1.3rem;
+	border-radius: 5rem;
+}
+.f-h1{
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+::placeholder{
+	font-size: 1.2rem;
+	padding-left: 2rem;
+}
+.f-btn{
+	padding: 1rem;
+	width: 8rem;
+	background-color: #00ADF3;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2rem;
+	font-weight: bold;
+}
+footer{
+	background: #1e2021;
+	color: white;
+	/*text-align: center;*/
+	font-family: 'Lobster', cursive;
+	font-size: 1.1rem;
+    text-align: center;
+    height: 26vh;
+    padding-top: 3.5rem;
+
+
+}
+#Contact{
+	margin-top:6rem;
+}
